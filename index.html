@@ -1,2 +1,140 @@
-REGINA OCULTA
-Sitio Web en construcción
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Regina Oculta — historias, voces, memoria y cultura de Villa Regina.">
+  <title>Regina Oculta | Historias, voces y memoria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Regina Oculta, inicio">
+      <span class="brand-mark">RO</span>
+      <span>
+        <strong>REGINA</strong>
+        <em>OCULTA</em>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Historia</a>
+      <a href="#voces">Voces</a>
+      <a href="#archivo">Archivo</a>
+      <a href="#cultura">Cultura</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Villa Regina · Río Negro</p>
+        <h1>Regina<br><span>Oculta</span></h1>
+        <p class="hero-text">Historias, voces y memoria de una ciudad.</p>
+        <a class="button" href="#historia">Descubrir la historia</a>
+      </div>
+      <div class="scroll-note">Deslizá para descubrir ↓</div>
+    </section>
+
+    <section class="intro section">
+      <div class="section-label">01 · La memoria</div>
+      <div class="intro-grid">
+        <div>
+          <h2>Una ciudad tiene muchas historias.</h2>
+        </div>
+        <div>
+          <p>Regina Oculta nace para reunir y preservar relatos, fotografías, documentos, testimonios, sonidos, videos y expresiones culturales vinculadas con Villa Regina.</p>
+          <p>Un archivo digital abierto para mirar el pasado, escuchar a quienes lo vivieron y comprender la ciudad que somos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="historia" class="section history">
+      <div class="section-label">02 · Historia</div>
+      <div class="history-grid">
+        <div>
+          <h2>Regina a través del tiempo</h2>
+          <p>La historia también vive en las pequeñas escenas: una familia, una chacra, una calle, una estación, una fotografía o una conversación.</p>
+          <a class="text-link" href="#archivo">Explorar el archivo →</a>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item"><span>Los comienzos</span><strong>Colonia · Familias · Trabajo</strong></div>
+          <div class="timeline-item"><span>La ciudad crece</span><strong>Barrios · Escuelas · Ferrocarril</strong></div>
+          <div class="timeline-item"><span>Memorias vivas</span><strong>Testimonios · Fotografías · Relatos</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="voces" class="section voices">
+      <div class="section-label">03 · Voces de Regina</div>
+      <div class="voices-card">
+        <div>
+          <p class="quote">“Las ciudades también se construyen con los recuerdos de quienes las habitaron.”</p>
+          <p class="small">Próximamente: entrevistas y testimonios de vecinos de Villa Regina.</p>
+        </div>
+        <div class="voice-icon">◉</div>
+      </div>
+    </section>
+
+    <section id="archivo" class="section archive">
+      <div class="section-label">04 · Archivo</div>
+      <h2>Imágenes que cuentan</h2>
+      <p class="section-lead">Una primera mirada al material que dará forma al archivo visual de Regina Oculta.</p>
+
+      <div class="gallery">
+        <figure class="gallery-item large">
+          <img src="imagenes/estatua.jpg" alt="Estatua ubicada en el paisaje de Villa Regina">
+          <figcaption>Monumentos y lugares</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="imagenes/regina-pacini.jpg" alt="Fotografía histórica de Regina Pacini">
+          <figcaption>Personajes e historias</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="imagenes/paisaje.jpg" alt="Paisaje de Villa Regina">
+          <figcaption>El territorio</figcaption>
+        </figure>
+        <figure class="gallery-item logo-card">
+          <img src="imagenes/logo.jpg" alt="Logo de Regina Oculta">
+          <figcaption>Identidad del proyecto</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="cultura" class="section culture">
+      <div class="section-label">05 · Cultura y actualidad</div>
+      <div class="culture-grid">
+        <div>
+          <h2>El pasado también conversa con el presente.</h2>
+        </div>
+        <div class="culture-list">
+          <article><span>01</span><div><h3>Noticias</h3><p>Patrimonio, acontecimientos y novedades culturales.</p></div></article>
+          <article><span>02</span><div><h3>Audiovisual</h3><p>Documentales, entrevistas, videos y registros.</p></div></article>
+          <article><span>03</span><div><h3>Agenda cultural</h3><p>Arte, música, libros, exposiciones y actividades.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="section-label">06 · Contacto</div>
+      <h2>¿Tenés una historia de Regina?</h2>
+      <p>Regina Oculta puede crecer con el aporte de quienes guardan fotografías, documentos, relatos o recuerdos de la ciudad.</p>
+      <a class="button dark" href="mailto:contacto@reginaoculta.com.ar">Compartir material</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">REGINA OCULTA</div>
+    <p>Historias · Voces · Memoria · Cultura</p>
+    <small>© <span id="year"></span> Regina Oculta</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
